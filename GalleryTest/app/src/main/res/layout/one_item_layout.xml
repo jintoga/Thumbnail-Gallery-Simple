@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgSolo"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center|fill"
+        android:layout_weight="2"
+        android:contentDescription="view detail" />
+
+    <TextView
+        android:id="@+id/textViewSolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#FFFF" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#37111111"
+        android:text="Back" />
+</LinearLayout>
